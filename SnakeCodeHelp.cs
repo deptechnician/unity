@@ -1,7 +1,7 @@
 // Here are the fields we'll add to your snake monobehavior class to keep track of the body
 //
 public GameObject bodySegmentPrefab;          // This is the prefab in unity that is like the sprite for each body segment
-private Transform[] bodySegments;             // This is an array of Transforms. We'll use this to record the position of each body segment
+private GameObject[] bodySegments;             // This is an array of Transforms. We'll use this to record the position of each body segment
 private int snakeLegnth = 0;                // This trans the length of the snake (how many body segments it has). It starts with 0 meaning it only has a head
 
 // --------------------------------------------------------------------------------------
